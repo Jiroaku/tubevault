@@ -108,13 +108,6 @@ fn load_users_json() -> Result<Vec<User>> {
 fn save_users_json(users: &[User]) -> Result<()> {
     let json_path = "../../public/users.json";
     
-    // Create backup
-    let backup_path = format!("{}.backup", json_path);
-    if Path::new(json_path).exists() {
-        fs::copy(json_path, &backup_path)
-            .map_err(|e| anyhow!("Failed to create backup: {}", e))?;
-        println!("Created backup at {}", backup_path);
-    }
     
     let json_content = serde_json::to_string_pretty(users)
         .map_err(|e| anyhow!("Failed to serialize users: {}", e))?;

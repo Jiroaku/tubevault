@@ -4,11 +4,16 @@ Welcome to the TubeVault documentation! This collection explores the technical a
 
 ## Current Articles
 
-Our validation section currently covers two key areas of YouTube's early technical infrastructure:
+### Validation Methods
+- **[Incremental IDs](/t/incremental_ids)** - YouTube's sequential ID system and user ranking validation
+- **[Videos](/t/videos)** - Video ID analysis from the pre-2006 era
 
-**[Incremental IDs](/t/incremental_ids)** - Explores YouTube's incremental nature of user IDs and how this helps us validate user placements
-
-**[Video IDs](/t/videos)** - Examines YouTube's video ID system from the pre-2006 era
+### YouTube Features
+- **[Channel Hiding](/t/hiding)** - Features channels use to hide, without deleting the channel
+- **[Hide View Count](/t/hide_view_count)** - Rare CMS feature for internal YouTube channels
+- **[noindex](/t/noindex)** - YouTube's only public censorship flag
+- **[Recommend Itself](/t/recommend_itself)** - Feature that makes channels only recommend it's own videos
+- **[Redirects](/t/redirects)** - Channel and conditional redirect documentation
 
 ## Contributing
 
@@ -19,4 +24,4 @@ We're actively seeking knowledgeable writers and researchers to help expand this
 
 We'd love to have you contribute! Whether you want to write entirely new articles or expand existing ones, your knowledge can help preserve important technical history.
 
-**contributions [at] youtube.museum**
+For detailed guidelines on how to contribute articles, see our [contribution guide](https://github.com/ddd/tubevault/blob/main/CONTRIBUTIONS.md). For minor corrections or questions, email **contributions [at] youtube.museum**.
