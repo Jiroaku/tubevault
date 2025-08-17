@@ -1,0 +1,26 @@
+{
+  "name": "youtube-museum",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && node scripts/generate-sitemap.js && node scripts/inject-json-ld.js",
+    "preview": "vite preview",
+    "build-articles": "node build-articles.js",
+    "sitemap": "node scripts/generate-sitemap.js",
+    "inject-json-ld": "node scripts/inject-json-ld.js"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.13.6",
+    "marked": "^16.1.2",
+    "prismjs": "^1.30.0",
+    "solid-js": "^1.8.18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}

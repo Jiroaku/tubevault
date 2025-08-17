@@ -1,0 +1,14 @@
+{
+  "name": "TubeVault",
+  "short_name": "TubeVault",
+  "description": "Preserving YouTube's early history",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/png",
+      "sizes": "200x200"
+    }
+  ]
+}

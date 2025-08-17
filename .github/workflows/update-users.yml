@@ -1,0 +1,64 @@
+name: Update Users Data
+
+on:
+  schedule:
+    # Run every 3 days at midnight UTC
+    - cron: '0 0 */3 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-users:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Required to commit changes
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        override: true
+    
+    - name: Cache Rust dependencies
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cargo/registry
+          ~/.cargo/git
+          scripts/update-users/target
+        key: ${{ runner.os }}-cargo-${{ hashFiles('scripts/update-users/Cargo.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-cargo-
+    
+    - name: Run update script
+      run: |
+        cd scripts/update-users
+        cargo run --release
+      env:
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+    
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code public/users.json || echo "changed=true" >> $GITHUB_OUTPUT
+    
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add public/users.json
+        git commit -m "🤖 Auto-update users.json - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        git push
+    
+    - name: Log completion
+      run: |
+        if [ "${{ steps.git-check.outputs.changed }}" == "true" ]; then
+          echo "✅ users.json updated and committed"
+        else
+          echo "ℹ️  No changes detected in users.json"
+        fi
