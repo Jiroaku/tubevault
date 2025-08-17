@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && node scripts/generate-sitemap.js && node scripts/inject-json-ld.js",
+    "build": "npm run build-articles && tsc && vite build && node scripts/generate-sitemap.js && node scripts/inject-json-ld.js",
     "preview": "vite preview",
     "build-articles": "node build-articles.js",
     "sitemap": "node scripts/generate-sitemap.js",
