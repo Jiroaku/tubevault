@@ -1,5 +1,1 @@
-# Serve static article HTML files directly
-/t/:article    /t/:article.html   200
-
-# SPA fallback for everything else
 /*    /index.html   200
