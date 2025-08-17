@@ -54,12 +54,12 @@ function generateSitemap() {
   return xml
 }
 
-// Write sitemap to public directory
+// Write sitemap to dist directory (after build)
 function writeSitemap() {
   const sitemap = generateSitemap()
   const scriptDir = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'))
   const projectRoot = path.dirname(scriptDir)
-  const sitemapPath = path.join(projectRoot, 'public', 'sitemap.xml')
+  const sitemapPath = path.join(projectRoot, 'dist', 'sitemap.xml')
   
   fs.writeFileSync(sitemapPath, sitemap, 'utf8')
   console.log(`✅ Sitemap generated at ${sitemapPath}`)
