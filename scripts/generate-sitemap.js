@@ -12,7 +12,7 @@ const staticRoutes = [
 
 // Function to scan for HTML files in /t/ directory
 function scanHtmlFiles() {
-  const scriptDir = path.dirname(import.meta.url.replace('file:///', ''))
+  const scriptDir = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'))
   const projectRoot = path.dirname(scriptDir)
   const tDir = path.join(projectRoot, 'public', 't')
   const routes = []
@@ -57,7 +57,7 @@ function generateSitemap() {
 // Write sitemap to public directory
 function writeSitemap() {
   const sitemap = generateSitemap()
-  const scriptDir = path.dirname(import.meta.url.replace('file:///', ''))
+  const scriptDir = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'))
   const projectRoot = path.dirname(scriptDir)
   const sitemapPath = path.join(projectRoot, 'public', 'sitemap.xml')
   
