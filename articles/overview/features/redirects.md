@@ -1,6 +1,6 @@
 # Redirects
 
-There are two redirect features on YouTube - **Channel Redirects** and **Conditional Redirects**, both of which are very different. This article does not cover ("live redirects")[https://support.google.com/youtube/answer/10359590?hl=en] as they are not special.
+There are two redirect features on YouTube - **Channel Redirects** and **Conditional Redirects**, both of which are very different. This article does not cover ["live redirects"](https://support.google.com/youtube/answer/10359590?hl=en) as they are not special.
 
 ## Channel Redirects
 
