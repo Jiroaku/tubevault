@@ -27,6 +27,7 @@ function markdownToHtml(markdown) {
     // Convert headers
     html = html.replace(/^# (.*$)/gim, '<h1 id="header">$1</h1>');
     html = html.replace(/^## (.*$)/gim, '<h2 class="with-separator">$1</h2>');
+    html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
     
     // Convert bold text
     html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
@@ -123,7 +124,7 @@ function markdownToHtml(markdown) {
             continue;
         }
         
-        if (line.startsWith('<h1') || line.startsWith('<h2')) {
+        if (line.startsWith('<h1') || line.startsWith('<h2') || line.startsWith('<h3')) {
             result.push(line);
         } else if (line.startsWith('<ol') || line.startsWith('</ol>')) {
             result.push(line);

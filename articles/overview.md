@@ -4,11 +4,8 @@ Welcome to the TubeVault documentation! This collection explores the technical a
 
 ## Current Articles
 
-**Validation Methods**
 - **[Incremental IDs](/t/incremental_ids)** - YouTube's sequential ID system and user ranking validation
 - **[Videos](/t/videos)** - Video ID analysis from the pre-2006 era
-
-**YouTube Features**
 - **[Channel Hiding](/t/hiding)** - Features channels use to hide, without deleting the channel
 - **[Hide View Count](/t/hide_view_count)** - Rare CMS feature for internal YouTube channels
 - **[noindex](/t/noindex)** - YouTube's only public censorship flag
