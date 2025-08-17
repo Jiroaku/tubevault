@@ -1,23 +1,17 @@
 # TubeVault
 
-An archive of YouTube's oldest users and videos from 2005-2006. All rankings are validated via incremental IDs - see [this article](https://youtube.museum/t/incremental_ids) for technical details.
+An archive of YouTube's oldest users and videos from 2005. All rankings are validated via incremental IDs - see [this article](https://youtube.museum/t/incremental_ids) for technical details.
 
 🌐 **Check out the website**: [youtube.museum](https://youtube.museum)
 
 
-
-## Screenshots
-
 ![TubeVault Homepage](assets/tubevault_screenshot.png)
 
-## Run the site locally
+## Installation
 
 ```bash
 # Install dependencies
 npm install
-
-# Start development server
-npm run dev
 
 # Build for production
 npm run build
@@ -29,6 +23,16 @@ cd scripts/update-users && cargo run
 npm run preview
 ```
 
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
 ## Data Sources
 
 - **users.json**: List of oldest YouTube accounts. Automated data refresh via GitHub Actions every 3 days.
@@ -37,7 +41,7 @@ npm run preview
 
 ## Contributing
 
-We're currently looking for contributions for new articles. New articles can be submitted either by email to **contributions [at] youtube.museum** or by creating a pull request.
+We're currently looking for contributions for new articles. See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for guidelines on how to contribute articles to TubeVault.
 
 ## Disclaimer
 
