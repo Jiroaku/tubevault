@@ -1,28 +1,44 @@
-## Usage
+# TubeVault
+
+An archive of YouTube's oldest users and videos from 2005-2006. All rankings are validated via incremental IDs - see [this article](https://youtube.museum/t/incremental_ids) for technical details.
+
+🌐 **Check out the website**: [youtube.museum](https://youtube.museum)
+
+
+
+## Screenshots
+
+![TubeVault Homepage](assets/tubevault_screenshot.png)
+
+## Run the site locally
 
 ```bash
-$ npm install # or pnpm install or yarn install
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Update data archives (requires YOUTUBE_API_KEY env variable)
+cd scripts/update-users && cargo run
+
+# Run the site locally
+npm run preview
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## Data Sources
 
-## Available Scripts
+- **users.json**: List of oldest YouTube accounts. Automated data refresh via GitHub Actions every 3 days.
+- **videos.json**: List of oldest YouTube videos
+- **videos-archive/**: Preserved video files in original quality
 
-In the project directory, you can run:
+## Contributing
 
-### `npm run dev`
+We're currently looking for contributions for new articles. New articles can be submitted either by email to **contributions [at] youtube.museum** or by creating a pull request.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+## Disclaimer
 
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-Learn more about deploying your application with the [documentations](https://vitejs.dev/guide/static-deploy.html)
+This site is not affiliated with Google, YouTube, or any of their subsidiaries. TubeVault is an independent preservation project for historical documentation purposes.
