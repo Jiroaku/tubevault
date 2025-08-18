@@ -7,11 +7,12 @@ TubeVault is dedicated to preserving and documenting the early history of YouTub
 This project is made possible by the following people:
 
 1. [brutecat](https://brutecat.com) - Project maintainer
-2. [kurosparks](https://www.youtube.com/channel/UCFqbdEPF8ssfsOHk50oieuw) - Recovery and archival of lost early videos
-3. [NanDroid](https://www.youtube.com/channel/UCoI1SGzNp7t88uZ-Qyi3YQA) - Recovery and archival of lost early videos (2021 - 2023)
-4. 7452 - Research into early users and rankings
-5. Nick - Research into early users and rankings (before 2011)
-6. [rebane2001](https://lyra.horse) - Video hosting
+2. [Azai](https://www.youtube.com/channel/UCTV31jYJsExLOFAKe0KfD4g) - Recovery and archival of lost early videos
+3. [kurosparks](https://www.youtube.com/channel/UCFqbdEPF8ssfsOHk50oieuw) - Recovery and archival of lost early videos
+4. [NanDroid](https://www.youtube.com/channel/UCoI1SGzNp7t88uZ-Qyi3YQA) - Recovery and archival of lost early videos (2021 - 2023)
+5. 7452 - Research into early users and rankings
+6. Nick - Research into early users and rankings (before 2011)
+7. [rebane2001](https://lyra.horse) - Video hosting
 
 This website and all of its code is open source on [GitHub](https://github.com/ddd/tubevault). We do not accept donations, only contributions.
 

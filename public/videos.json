@@ -25,6 +25,7 @@
     "video": "/videos-archive/nGzAI5pLbMY.mp4",
     "status": 1,
     "archive": "https://web.archive.org/web/20070525072305/http://youtube.com/watch?v=nGzAI5pLbMY&mode=related&search=",
+    "thumbnail": "https://web.archive.org/web/20080711083114if_/http://i.ytimg.com/vi/nGzAI5pLbMY/default.jpg",
     "date_fallback": "2005-04-23 11:15PM",
     "title": "Rolling down a hill",
     "username": "jawed",
@@ -98,6 +99,7 @@
     "video": "/videos-archive/aqsRo9JYx5M.mp4",
     "status": 3,
     "archive": "https://web.archive.org/web/20100616070505/https://www.youtube.com/watch?v=aqsRo9JYx5M",
+    "thumbnail": "https://web.archive.org/web/20140824184649if_/https://i.ytimg.com/vi/aqsRo9JYx5M/default.jpg",
     "date_fallback": "2005-04-24",
     "username": "ilias",
     "title": "Badass Snowboarding"
@@ -152,6 +154,7 @@
     "video_id": "jpQSKxsnbc0",
     "status": 1,
     "archive": "https://web.archive.org/web/20080814170839/ru.youtube.com/user/kaizenamazen",
+    "thumbnail": "https://web.archive.org/web/20070117030824im_/http://sjc-static6.sjc.youtube.com/vi/jpQSKxsnbc0/2.jpg",
     "title": "Dr. J Reincarnated",
     "username": "Kaizenamazen",
     "length": 12
@@ -182,6 +185,7 @@
   },
   {
     "video_id": "lLlBie7ifdg",
+    "video": "/videos-archive/lLlBie7ifdg.mkv",
     "status": 1,
     "archive": "https://web.archive.org/web/20080815051447/ru.youtube.com/user/nerdtourist",
     "thumbnail": "https://web.archive.org/web/20080815051447im_/http://i1.ytimg.com/vi/lLlBie7ifdg/default.jpg",
@@ -211,6 +215,7 @@
   },
   {
     "video_id": "zgLGHXYYsFM",
+    "thumbnail": "https://web.archive.org/web/20060921132941im_/http://sjl-static4.sjl.youtube.com/vi/zgLGHXYYsFM/2.jpg",
     "status": 1,
     "archive": "https://web.archive.org/web/20060321123838/http://www.youtube.com/watch?v=zgLGHXYYsFM",
     "date_fallback": "2005-04-27 04:06PM",
@@ -253,6 +258,7 @@
   {
     "video_id": "3RXklWrtBNk",
     "video": "/videos-archive/3RXklWrtBNk.mp4",
+    "thumbnail": "https://web.archive.org/web/20060713071842im_/http://sjl-static3.sjl.youtube.com/vi/3RXklWrtBNk/2.jpg",
     "status": 1,
     "archive": "https://web.archive.org/web/20060410033419/http://www.jawed.com/",
     "date_fallback": "2005-04-27 10:52PM",
@@ -277,6 +283,7 @@
     "video": "/videos-archive/OcN9xXYar1g.mp4",
     "status": 1,
     "archive": "https://web.archive.org/web/20090511130322im_/http://i4.ytimg.com/vi/OcN9xXYar1g/default.jpg",
+    "thumbnail": "https://web.archive.org/web/20060713071842im_/http://sjl-static7.sjl.youtube.com/vi/OcN9xXYar1g/2.jpg",
     "title": "Gulfstream V Jet taking off from St. Paul, Minnesota",
     "username": "jawed",
     "length": 34
@@ -289,6 +296,7 @@
     "video_id": "c0g5-NsDdJQ",
     "status": 1,
     "archive": "https://web.archive.org/web/20060410033419/http://www.jawed.com/",
+    "thumbnail": "https://web.archive.org/web/20060713071842im_/http://sjl-static11.sjl.youtube.com/vi/c0g5-NsDdJQ/2.jpg",
     "date_fallback": "2005-04-28 04:05AM",
     "title": "A story about Drey",
     "username": "jawed"
@@ -382,6 +390,7 @@
     "video": "/videos-archive/iXG7e1g-BWI.mp4",
     "status": 3,
     "archive": "https://web.archive.org/web/20110918002539/http://www.youtube.com/watch?v=iXG7e1g-BWI",
+    "thumbnail": "https://web.archive.org/web/20080727074111if_/http://i.ytimg.com/vi/iXG7e1g-BWI/default.jpg",
     "date_fallback": "2005-04-29",
     "title": "Wait, you forgot to close the taxi door..",
     "username": "hitofushi",
@@ -447,6 +456,7 @@
     "video": "/videos-archive/YZ8rk5oqCHg.mkv",
     "status": 1,
     "archive": "https://web.archive.org/web/20120420131130/youtube.com/watch?v=YZ8rk5oqCHg",
+    "thumbnail": "https://web.archive.org/web/20140824184650if_/https://i.ytimg.com/vi/YZ8rk5oqCHg/default.jpg",
     "date_fallback": "2005-05-01",
     "title": "cybergoon squad",
     "username": "greg",
@@ -465,6 +475,7 @@
     "video_id": "VeoKClsewfA",
     "status": 1,
     "archive": "https://web.archive.org/web/20060410033419/http://www.jawed.com/",
+    "thumbnail": "https://web.archive.org/web/20060713071842im_/http://sjl-static3.sjl.youtube.com/vi/VeoKClsewfA/2.jpg",
     "date_fallback": "2005-05-01 09:04PM",
     "title": "Snake!",
     "username": "jawed"
@@ -507,6 +518,7 @@
     "video_id": "sWGCUkfzxgs",
     "status": 1,
     "archive": "https://web.archive.org/web/20060321123838/http://www.youtube.com/watch?v=sWGCUkfzxgs",
+    "thumbnail": "https://web.archive.org/web/20060713071842im_/http://sjl-static12.sjl.youtube.com/vi/sWGCUkfzxgs/2.jpg",
     "date_fallback": "2005-05-03 03:47AM",
     "title": "On top of the world!",
     "username": "jawed"
@@ -516,6 +528,7 @@
     "video": "/videos-archive/npYvuMz0_es.mp4",
     "status": 1,
     "archive": "https://web.archive.org/web/20120420131101/http://www.youtube.com/watch?v=npYvuMz0_es",
+    "thumbnail": "https://web.archive.org/web/20080708022732if_/http://i.ytimg.com/vi/npYvuMz0_es/default.jpg",
     "date_fallback": "2005-05-03",
     "title": "mercado del albert kuyp",
     "username": "pepa",
@@ -531,6 +544,7 @@
     "video": "/videos-archive/4UwuYqlDQeg.mkv",
     "status": 1,
     "archive": "https://web.archive.org/web/20060923164257/http://www.youtube.com/watch?v=4UwuYqlDQeg",
+    "thumbnail": "https://web.archive.org/web/20060923164257im_/http://sjl-static2.sjl.youtube.com/vi/4UwuYqlDQeg/2.jpg",
     "date_fallback": "2005-05-03",
     "title": "Pandas at the San Diego Zoo",
     "username": "tunafat",
@@ -671,6 +685,7 @@
   },
   {
     "video_id": "JsiM84a7hzk",
+    "thumbnail": "https://web.archive.org/web/20060529092045im_/http://sjl-static8.sjl.youtube.com/vi/JsiM84a7hzk/2.jpg",
     "status": 1,
     "archive": "https://web.archive.org/web/20060529092045/https://www.youtube.com/results?search=artyswiss",
     "title": "day at glenview by bij",
