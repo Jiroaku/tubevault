@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const SITE_URL = 'https://youtube.museum'
+const SITE_URL = 'https://tubevault.org'
 
 // Static routes with their priorities and change frequencies
 const staticRoutes = [

@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://youtube.museum/sitemap.xml
+Sitemap: https://tubevault.org/sitemap.xml

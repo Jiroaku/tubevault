@@ -22,4 +22,4 @@ We're actively seeking knowledgeable writers and researchers to help expand this
 
 We'd love to have you contribute! Whether you want to write entirely new articles or expand existing ones, your knowledge can help preserve important technical history.
 
-For detailed guidelines on how to contribute articles, see our [contribution guide](https://github.com/ddd/tubevault/blob/main/CONTRIBUTIONS.md). For minor corrections or questions, email **contributions [at] youtube.museum**.
+For detailed guidelines on how to contribute articles, see our [contribution guide](https://github.com/ddd/tubevault/blob/main/CONTRIBUTIONS.md). For minor corrections or questions, email **contributions [at] tubevault.org**.

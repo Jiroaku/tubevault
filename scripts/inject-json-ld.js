@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const SITE_URL = 'https://youtube.museum'
+const SITE_URL = 'https://tubevault.org'
 
 function generateJsonLdScript() {
   const scriptDir = path.dirname(import.meta.url.replace('file:///', ''))

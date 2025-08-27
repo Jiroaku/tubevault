@@ -139,7 +139,7 @@ See the full folder structure at `articles/` for more examples of organization a
 ## Submission Process
 
 ### Option 1: Email Submission
-Send to **contributions [at] youtube.museum** with:
+Send to **contributions [at] tubevault.org** with:
 - Article content as markdown file
 - Any supporting images/assets
 - Brief description of the research

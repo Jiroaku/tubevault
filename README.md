@@ -1,8 +1,8 @@
 # TubeVault
 
-An archive of YouTube's oldest users and videos from 2005. All rankings are validated via incremental IDs - see [this article](https://youtube.museum/t/incremental_ids) for technical details.
+An archive of YouTube's oldest users and videos from 2005. All rankings are validated via incremental IDs - see [this article](https://tubevault.org/t/incremental_ids) for technical details.
 
-🌐 **Check out the website**: [youtube.museum](https://youtube.museum)
+🌐 **Check out the website**: [tubevault.org](https://tubevault.org)
 
 
 ![TubeVault Homepage](assets/tubevault_screenshot.png)
