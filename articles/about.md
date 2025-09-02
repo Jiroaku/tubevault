@@ -7,7 +7,7 @@ TubeVault is dedicated to preserving and documenting the early history of YouTub
 This project is made possible by the following people:
 
 1. [brutecat](https://brutecat.com) - Project maintainer
-2. [Azai](https://www.youtube.com/channel/UCTV31jYJsExLOFAKe0KfD4g) - Recovery and archival of lost early videos
+2. [Veristune](https://www.youtube.com/channel/UCOrWyC6Nm_lxdaYswADDByQ) - Recovery and archival of lost early videos
 3. [kurosparks](https://www.youtube.com/channel/UCFqbdEPF8ssfsOHk50oieuw) - Recovery and archival of lost early videos
 4. [NanDroid](https://www.youtube.com/channel/UCoI1SGzNp7t88uZ-Qyi3YQA) - Recovery and archival of lost early videos (2021 - 2023)
 5. 7452 - Research into early users and rankings
