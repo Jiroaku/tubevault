@@ -8,7 +8,7 @@ export const userIdDecoderHTML = `
     border-radius: 6px;
   ">
     <h4 style="margin: 0 0 8px 0; font-size: 14px; color: #333; font-family: Arial, sans-serif;">YouTube ID Decoder</h4>
-    <p style="margin: 0 0 12px 0; font-size: 12px; color: #666; font-family: Arial, sans-serif;">This decoder is applicable to the first 10,000 YouTube IDs.</p>
+    <p style="margin: 0 0 12px 0; font-size: 12px; color: #666; font-family: Arial, sans-serif;">This decoder is applicable to the first 100,000 YouTube IDs.</p>
     <div style="display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; margin-bottom: 8px;">
       <input 
         type="text" 
@@ -52,7 +52,7 @@ const loadCsvData = async () => {
   if (csvData) return csvData;
   
   try {
-    const response = await fetch('/data/first_10k.csv');
+    const response = await fetch('/data/first_100k.csv');
     const text = await response.text();
     csvData = new Map();
     
@@ -115,7 +115,7 @@ export const initializeUserIdDecoder = (component) => {
         }
       } else {
         result.style.color = '#d73a49';
-        result.textContent = 'ID not found in the first 10k database';
+        result.textContent = 'ID not found in the first 100k database';
       }
     } catch (error) {
       result.style.color = '#d73a49';
