@@ -12,6 +12,7 @@ Welcome to the TubeVault documentation! This collection explores the technical a
 6. **[noindex](/t/noindex)** - YouTube's only public censorship flag
 7. **[Recommend Itself](/t/recommend_itself)** - Feature that makes channels only recommend it's own videos
 8. **[Redirects](/t/redirects)** - Channel and conditional redirect documentation
+9. **[Early Video Formats](/t/early_video_formats)** - YouTube's original Flash Video (FLV) format and encoding history
 
 ## Contributing
 
