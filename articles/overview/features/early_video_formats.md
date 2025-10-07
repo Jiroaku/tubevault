@@ -150,11 +150,3 @@ These early video formats represent a crucial period in web video history:
 
 The transition from Sorenson Spark to VP6, and eventually to H.264, represents the evolution of web video technology during YouTube's formative years.
 
-## References
-
-- [FLV Format Specification](https://en.wikipedia.org/wiki/Flash_Video) - Wikipedia documentation of Flash Video format
-- [YouTube Blog Archive (2005-2006)](https://web.archive.org/web/20051201000000*/youtube.com/blog) - Wayback Machine archives of YouTube's technical blog posts
-- [Sorenson Spark Codec Documentation](https://web.archive.org/web/20051201000000*/sorenson.com) - Archived documentation of the Sorenson Spark codec
-- [Early YouTube API Documentation](https://web.archive.org/web/20051201000000*/youtube.com/dev) - Wayback Machine archives of YouTube's developer documentation
-- [Flash Player 7 Release Notes](https://web.archive.org/web/20041201000000*/adobe.com/products/flashplayer) - Technical specifications for Flash Player 7+ support
-- [On2 VP6 Codec Documentation](https://web.archive.org/web/20061201000000*/on2.com) - Archived documentation of the VP6 codec used by YouTube
