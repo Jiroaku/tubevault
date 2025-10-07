@@ -152,7 +152,7 @@ The transition from Sorenson Spark to VP6, and eventually to H.264, represents t
 
 ## References
 
-- [Flash Video Format Specification v1.0](https://www.adobe.com/content/dam/acom/en/devnet/flv/video_file_format_spec_v10.pdf) - Adobe's official FLV format documentation
+- [FLV Format Specification](https://en.wikipedia.org/wiki/Flash_Video) - Wikipedia documentation of Flash Video format
 - [YouTube Blog Archive (2005-2006)](https://web.archive.org/web/20051201000000*/youtube.com/blog) - Wayback Machine archives of YouTube's technical blog posts
 - [Sorenson Spark Codec Documentation](https://web.archive.org/web/20051201000000*/sorenson.com) - Archived documentation of the Sorenson Spark codec
 - [Early YouTube API Documentation](https://web.archive.org/web/20051201000000*/youtube.com/dev) - Wayback Machine archives of YouTube's developer documentation
